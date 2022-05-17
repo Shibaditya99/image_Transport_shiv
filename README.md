@@ -50,10 +50,6 @@ Here we'll create the publisher node which will continually publish an image.
     }
     
     
-# Building your node
-Just run:
-
-    catkin_make
     
 # Writing a Simple Image Subscriber
 Here we'll create the subscriber node which will display an image topic on screen.
@@ -88,3 +84,7 @@ Here we'll create the subscriber node which will display an image topic on scree
       cv::destroyWindow("view");
     }
 
+# Building your node
+Just run:
+
+    catkin_make
